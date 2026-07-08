@@ -22,25 +22,6 @@ A Telegram bot built with **Python** and **aiogram**, designed to automate order
 * asyncio
 * python-dotenv
 
-## 📂 Project Structure
-
-```
-.
-├── app/
-│   ├── database/
-│   ├── filters/
-│   ├── handlers/
-│   ├── keyboards/
-│   ├── middlewares/
-│   ├── services/
-│   ├── states/
-│   └── utils/
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── run.py
-```
-
 ## 🚀 Getting Started
 
 ### Clone the repository
