@@ -1,0 +1,11 @@
+services:
+  bot:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: handyman_bot
+    restart: always
+    env_file:
+      - ../.env
+    volumes:
+      - ../app/database:/app/app/database

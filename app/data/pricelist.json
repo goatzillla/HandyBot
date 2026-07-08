@@ -1,0 +1,43 @@
+{
+    "furniture_services": {
+        "category_name": "Furniture Assembly & Repair",
+        "items": [
+            {"name": "Bed Assembly", "price": 90, "unit": "pc"},
+            {"name": "Wardrobe Assembly (Large)", "price": 150, "unit": "pc"},
+            {"name": "Cabinet/Chest of Drawers", "price": 60, "unit": "pc"},
+            {"name": "Table or Desk Assembly", "price": 45, "unit": "pc"},
+            {"name": "Hanging Shelves / Mirrors", "price": 25, "unit": "pc"},
+            {"name": "Furniture Repair & Adjustment", "price": 50, "unit": "hour"}
+        ]
+    },
+    "appliance_services": {
+        "category_name": "Appliance Installation & Connection",
+        "items": [
+            {"name": "Washing Machine / Dishwasher Connection", "price": 80, "unit": "pc"},
+            {"name": "TV Wall Mounting (up to 55\")", "price": 70, "unit": "pc"},
+            {"name": "TV Wall Mounting (over 55\")", "price": 110, "unit": "pc"},
+            {"name": "Refrigerator / Oven Built-in Installation", "price": 95, "unit": "pc"},
+            {"name": "Kitchen Hood Installation", "price": 75, "unit": "pc"}
+        ]
+    },
+    "electrical_services": {
+        "category_name": "Electrical Repair & Installation",
+        "items": [
+            {"name": "Socket or Switch Replacement", "price": 25, "unit": "pc"},
+            {"name": "Chandelier / Light Fixture Installation", "price": 50, "unit": "pc"},
+            {"name": "LED Strip Installation", "price": 15, "unit": "meter"},
+            {"name": "Electric Cooktop Connection", "price": 65, "unit": "pc"},
+            {"name": "Full Diagnostics & Wiring Repair", "price": 60, "unit": "hour"}
+        ]
+    },
+    "measurement_and_other": {
+        "category_name": "Measurement & General Handyman Tasks",
+        "items": [
+            {"name": "Door Lock Replacement", "price": 55, "unit": "pc"},
+            {"name": "Curtain Rod Installation", "price": 40, "unit": "pc"},
+            {"name": "Blinds / Shades Mounting", "price": 30, "unit": "pc"},
+            {"name": "Professional Measurement Service", "price": 35, "unit": "visit"},
+            {"name": "General Handyman Hourly Rate", "price": 45, "unit": "hour"}
+        ]
+    }
+}

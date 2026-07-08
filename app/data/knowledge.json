@@ -1,0 +1,30 @@
+{
+    "order": {
+        "triggers": ["order the service"],
+        "responses": ["Whats service do you require"],
+        "action": null,
+        "next_state": null,
+        "keyboard_name": "order_select_kb"
+    },
+    "price_list": {
+        "triggers": ["price list"],
+        "responses": null,
+        "action": null,
+        "next_state": null,
+        "keyboard_name": null
+    },
+    "rewiews": {
+        "triggers": ["rewievs"],
+        "responses": ["Here may be link on rewiev chat group."],
+        "action": null,
+        "next_state": null,
+        "keyboard_name": null
+    },
+    "my_order": {
+        "triggers": ["my order status"],
+        "responses": ["Order status method"],
+        "action": "get_order_status",
+        "next_state": null,
+        "keyboard_name": null
+    }
+}
